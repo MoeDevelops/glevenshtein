@@ -1,8 +1,22 @@
+/// The module used to calculate the levenshtein distance
 import gleam/int
 import gleam/list
 import gleam/result
 import gleam/string
 
+/// This function calculates the levenshtein distance.
+/// It isn't case sensetive
+/// 
+/// ## Examples
+/// 
+/// ```gleam
+/// glevenshtein.calculate("Gleam", "BEAM") // 2!
+/// ```
+/// 
+/// ```gleam
+/// glevenshtein.calculate("GLEAM", "Gleam") // 0!
+/// ```
+/// 
 pub fn calculate(word1: String, word2: String) -> Int {
   let word1 = word1 |> string.lowercase()
   let word2 = word2 |> string.lowercase()
