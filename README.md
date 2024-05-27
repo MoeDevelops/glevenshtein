@@ -6,11 +6,12 @@
 ```sh
 gleam add glevenshtein
 ```
+
 ```gleam
 import glevenshtein
 
 pub fn main() {
-  // TODO: An example of the project in use
+  glevenshtein.calculate("Gleam", "BEAM") // 2!
 }
 ```
 
