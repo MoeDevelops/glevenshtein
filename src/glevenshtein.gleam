@@ -1,4 +1,5 @@
-/// The module used to calculate the levenshtein distance
+//// The module used to calculate the levenshtein distance
+
 import gleam/int
 import gleam/list
 import gleam/result
