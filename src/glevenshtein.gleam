@@ -6,7 +6,7 @@ import gleam/result
 import gleam/string
 
 /// This function calculates the levenshtein distance.
-/// It isn't case sensetive
+/// It isn't case sensitive
 /// 
 /// ## Examples
 /// 
